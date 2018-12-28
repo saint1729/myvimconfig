@@ -28,4 +28,5 @@ As of today, this custom installation contains:
 
 
 1. Light & Dark Vim color schemes inspired by Google's Material Design
-
+2. Buffer Tabs
+3. Dockerfile syntax highlighting
