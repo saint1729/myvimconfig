@@ -4,8 +4,8 @@ This repository contains my vim configuration. The best I found till date.
 
 Here are the steps on how to setup this up:
 
-1. Install vundle using following command.
-   `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+1. Install vundle using following command:
+   ```git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
    vim now supports downloading plugins from GitHub repositories.
 2. Copy paste this .vimrc in your $HOME directory of unix/linux machine.
 3. Open .vimrc and run command ":PluginInstall".
