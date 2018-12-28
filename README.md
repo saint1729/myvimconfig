@@ -1,6 +1,6 @@
 # myvimconfig
 
-This repository contains my vim configuration. The best I found till date.
+This repository contains the best configuration for vim editor that worked for me. You can try it out.
 
 
 
