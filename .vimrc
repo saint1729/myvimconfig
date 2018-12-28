@@ -20,16 +20,24 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 
 
+
+" Forget Vim tabs – now you can have buffer tabs
+Plugin 'ap/vim-buftabline.git'
+
+
+
 " Light & Dark Vim color schemes inspired by Google's Material Design
-Plugin 'https://github.com/NLKNguyen/papercolor-theme.git'
+Plugin 'NLKNguyen/papercolor-theme'
 
-
+" Docker file syntax plugin
 Plugin 'moby/moby' , {'rtp': '/contrib/syntax/vim/'}
 
 
-
 " git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
+" Plugin 'file:///home/gmarik/path/to/plugin'
+
+
+
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -53,10 +61,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
-
-
-
-
 set t_Co=256
 
 set background=light
@@ -65,4 +69,9 @@ colorscheme PaperColor
 set number
 set laststatus=2
 
+set hidden
+nnoremap <C-N> :bnext<CR>
+nnoremap <C-P> :bprev<CR>
+
+set ignorecase
 
